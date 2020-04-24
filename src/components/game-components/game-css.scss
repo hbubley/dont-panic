@@ -1,0 +1,173 @@
+.current-word{
+    font-size: 30px;
+}
+.current-letter{
+    font-size: 35px;
+    background: black;
+    color: white;
+    padding: 3px;
+}
+.typing-check{
+    margin: 0 auto;
+    padding: 19px;
+
+}
+.failures{
+    margin: 0 auto;
+    padding: 0;
+}
+.failures-p{
+    margin: 0 auto;
+    padding: 0;
+}
+.failures-p:nth-of-type(1){
+    margin-top: 100px;
+    #failure-icon {
+       font-size: 41px;
+       animation: wiggle 8s infinite alternate;
+    }
+}
+.failures-p:nth-of-type(2){
+    margin-top: 10px;
+    margin-left: 30px;
+    #failure-icon {
+        font-size: 50px;
+        animation: wiggle 8s infinite alternate-reverse;
+    }
+}
+.failures-p:nth-of-type(3){
+    margin-top: 110px;
+    #failure-icon {
+        font-size: 80px;
+        animation: wiggle 8s infinite alternate;
+    }
+}
+.failures-p:nth-of-type(4){
+    margin-top: 150px;
+    margin-left: 235px;
+    #failure-icon {
+        font-size: 50px;
+        animation: wiggle 8s infinite alternate-reverse;
+    }
+}
+.failures-p:nth-of-type(5){
+    margin-left: 33px;
+    margin-top: 18px;
+    #failure-icon {
+        font-size: 90px;
+        animation: wiggle 8s infinite alternate;
+    }
+}
+
+#failure-icon{
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.6);
+    margin: 0 auto;
+}
+
+.failure-display{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    margin: 0 auto;
+    position:absolute;
+}
+.player-movement-container{
+    height: 500px;
+    width: 700px;
+    height: 150px;
+    background: url(https://res.cloudinary.com/dum4u7sro/image/upload/v1587261264/Untitled_design_3_w3gffl.png);
+    background-size: contain;
+}
+.player-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: width 2s;
+    i{
+        text-align: right;
+        font-size: 35px;
+        animation: gradient 6s infinite alternate;
+        z-index: 2;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    }
+    20% {
+        text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8), 3px 3px 10px rgba(0, 255, 249, 0.4);
+    }
+    40%{
+        text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8), -3px 3px 10px rgba(255, 0, 193, 0.6);
+    }
+    60%{
+        text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8), 3px -3px 10px rgba(0, 255, 249, 0.6);
+    }
+    80%{
+        text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8), -3px -3px 10px rgba(255, 0, 193, 0.4);
+    }
+    100% {
+        text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
+    }
+}
+
+@mixin glitchCopy {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.glitch-game {
+    position: relative;
+    color: white;
+    animation: glitch-skew 1s infinite linear alternate-reverse;
+    &::before {
+        @include glitchCopy;
+        left: 2px;
+        text-shadow: -2px 0 #ff00c1;
+        clip: rect(44px, 450px, 56px, 0);
+        animation: glitch-anim 5s infinite linear alternate-reverse;
+    }
+
+    &::after {
+        @include glitchCopy;
+        left: -2px;
+        text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
+        animation: glitch-anim2 1s infinite linear alternate-reverse;
+    }
+}
+
+@keyframes glitch-anim {
+    $steps: 20;
+    @for $i from 0 through $steps {
+        #{percentage($i*(1/$steps))} {
+            clip: rect(random(100) + px, 9999px, random(100) + px, 0);
+            transform: skew((random(100) / 100) + deg);
+        }
+    }
+}
+
+@keyframes glitch-anim2 {
+    $steps: 20;
+    @for $i from 0 through $steps {
+        #{percentage($i*(1/$steps))} {
+            clip: rect(random(100) + px, 9999px, random(100) + px, 0);
+            transform: skew((random(100) / 100) + deg);
+        }
+    }
+}
+@keyframes wiggle {
+    0% { transform: rotate(10deg); }
+    20% { transform: rotate(0deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(0deg); }
+    80% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+  }

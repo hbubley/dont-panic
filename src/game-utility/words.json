@@ -1,0 +1,394 @@
+[
+    {
+        "word":"<h1>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"</h1>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h2>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"</h2>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h3>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"</h3>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h4>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"</h4>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<h5>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"</h5>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<img>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"while()",
+        "difficulty":"easy"
+    },
+    {
+        "word":"${body}",
+        "difficulty":"easy"
+    },
+    {
+        "word":"&and&",
+        "difficulty":"easy"
+    },
+    {
+        "word":"cd ~",
+        "difficulty":"easy"
+    },
+    {
+        "word":"npm -i",
+        "difficulty":"easy"
+    },
+    {
+        "word":"|or|",
+        "difficulty":"easy"
+    },
+    {
+        "word":"function()",
+        "difficulty":"easy"
+    },
+    {
+        "word":"=>()",
+        "difficulty":"easy"
+    },
+    {
+        "word":"fbc=true",
+        "difficulty":"easy"
+    },
+    {
+        "word":".map()",
+        "difficulty":"easy"
+    },
+    {
+        "word":".join()",
+        "difficulty":"easy"
+    },
+    {
+        "word":"unshift()",
+        "difficulty":"easy"
+    },
+    {
+        "word":"cd ./",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<^w^>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<(0.0)>",
+        "difficulty":"easy"
+    },
+    {
+        "word":"$(o.o)$",
+        "difficulty":"easy"
+    },
+    {
+        "word":"<img src='url'>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"(number).toFixed(2)",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"for(a;b;c){}",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"object ? true : false",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<p>I'm a p tag!</p>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<h5>Whatup World</h5>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"function(p1, p2) {return} ",
+        "difficulty":"medium"
+    },
+    {
+        "word":"str.lastIndexOf('John');",
+        "difficulty":"medium"
+    },
+    {
+        "word":"str.lastIndexOf(i);",
+        "difficulty":"medium"
+    },
+    {
+        "word":"['VW', 'Volvo', 'BMW'];",
+        "difficulty":"medium"
+    },    
+    {
+        "word":"sort((a, b){return b - a});",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"forEach(c => return c);",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"var d = new Date();",
+        "difficulty":"medium"
+    },
+    {
+        "word":"Math.ceil(4.7)",
+        "difficulty":"medium"
+    },  
+    {
+        "word":"Math.sin(Math.PI / 180);",
+        "difficulty":"medium"
+    },  
+    {
+        "word":".cos(Math.PI / 180);",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"if(shower='hot'){jumpinOutDaGrease()}",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"if(oneHeadlight=true){weCanDriveHome()}",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"if(wall='wonder'){return Oasis}",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"if(september='over'){wakeMeUp()}",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"if(nextMonth='May'){itsGonnaBeMay()}",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"let richGirl = oldMansMoney.filter()",
+        "difficulty":"medium"
+    }, 
+    {
+        "word":"newArr.findIndex(=>)",
+        "difficulty":"medium"
+    },
+    {
+        "word":"let div = ${div}",
+        "difficulty":"medium"
+    },
+    {
+        "word":"resort:nth-last-child(cutMyLifeIntoPieces)",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<Component prop={prop} />",
+        "difficulty":"medium"
+    },
+    {
+        "word":"let hesJustA = poorBoy.filter(family)=> spareLife",
+        "difficulty":"medium"
+    },
+    {
+        "word":"{Link to='/'}",
+        "difficulty":"medium"
+    },
+    {
+        "word":"const body = ${body}",
+        "difficulty":"medium"
+    },
+    {
+        "word":"text-transformation:UpPercase;",
+        "difficulty":"medium"
+    },
+    {
+        "word":"if (milkshake=true) boyz = 'InTheYard';",
+        "difficulty":"medium"
+    },
+    {
+        "word":"background-size: cover;",
+        "difficulty":"medium"
+    },
+    {
+        "word":"text-shadow: 3px 3px 3px #f8601e;",
+        "difficulty":"medium"
+    },
+    {
+        "word":"if(roach=papa){return mediocre at best}",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<a href=“urlLink target=“_blank”></a>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<button>Click me!</button>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<p id=“me”>very unique</a>",
+        "difficulty":"medium"
+    },
+    {
+        "word":"<NickelBack oldPhotograph={oldPhotograph) />",
+        "difficulty":"medium"
+    },
+    {
+        "word":"points.sort(function(a, b){return b - a});",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"var person = {firstName:'John', lastName:'Doe'};",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"{kanye ? tellMeStuff = false: tellMeStuff = true }",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"{oneWeek? sinceYou = LookedAtMe : sinceYou = droppedYourHandsToYourSide}",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"cars.sort(function(a, b){return a - b});",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"while(triedSoHard = true){return gotSoFar+1}",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"var story = `${girl} who cried a ${river}`",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"{criedARiver=true? drownWholeWorld(): looksSoSadInPhotographs()}",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"var pos = str.lastIndexOf('locate', 15);",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"num = Math.min(0, 150, 30, 20, -8, -20);",
+        "difficulty":"hard"
+    },
+    {
+        "word":"Math.ceil(Math.random() * 10);",
+        "difficulty":"hard"
+    },  
+    {
+        "word":"if (age < 18){text = 'young'};",
+        "difficulty":"hard"
+    }, 
+    {
+        "word":"numbers.forEach(number => return number);",
+        "difficulty":"hard"
+    },   
+    {
+        "word":"var voteable = (age < 18) ? 'young':'Old enough';",
+        "difficulty":"hard"
+    },
+    {
+        "word":"var pos = str.lastIndexOf('John');",
+        "difficulty":"hard"
+    },  
+    {
+        "word":"var nemo = ocean.filter('Nemo');",
+        "difficulty":"hard"
+    },        
+    {
+        "word":"{firstName:'John', lastName:'Doe'};",
+        "difficulty":"medium"
+    },
+    {
+        "word":"if (hour < 18) {talk = 'Today was a GREAT day'}",
+        "difficulty":"hard"
+    },      
+    {
+        "word":"while (i < 10) {text += 'The number is ' + i}",
+        "difficulty":"hard"
+    },    
+    {
+        "word":"do {text += 'The number is ',' + i+=1} while (i < 10);",
+        "difficulty":"hard"
+    },
+    {
+        "word":"wasntMe = () => {return 'caught me on the counter'}",
+        "difficulty":"hard"
+    },     
+    {
+        "word":"wasntMe = () => {return 'Saw me bangin' on the sofa'}",
+        "difficulty":"hard"
+    },     
+    {
+        "word":"wasntMe = () => {return 'Saw the marks on my shoulder'}",
+        "difficulty":"hard"
+    },     
+    {
+        "word":"wasntMe = () => {return 'Heard the words that I told her'}",
+        "difficulty":"hard"
+    },
+    {
+        "word":"@media (min-width: 50px) {.claSsname{some:style}}",
+        "difficulty":"hard"
+    },
+    {
+        "word":"sortFunction(a.substr(a[0].length), b.substr(_[0].length));",
+        "difficulty":"hard"
+    },
+    {
+        "word":"setInput([idName, [.,.answerAr.r, value].join(',')]);",
+        "difficulty":"hard"
+    },
+    {
+        "word":"for (i = 0; i < 5; i+=1) {text += 'The number is ' + i + '<br>'}",
+        "difficulty":"dangerous"
+    },
+    {
+        "word":"for (i = 0, len = cars.length, text = '' i < len; i+1) {text += cars[i] + '<br>'}",
+        "difficulty":"dangerous"
+    },
+    {
+        "word":"cars.sort(function(a, b) => {(return a.year - b.year)});",
+        "difficulty":"dangerous"
+    },
+    {
+        "word":"var deathToKevin = minions.filter('Kevin');",
+        "difficulty":"dangerous"
+    },      
+    {
+        "word":"background: url('./collections/images/page-one/column-one/link-one/thisIsALongOne.jpg');",
+        "difficulty":"dangerous"
+    },                          
+    {
+        "word":"background: url('./hey-now/youre-a-rockstar/get-the-show-on/get-paid.tiff');",
+        "difficulty":"dangerous"
+    }
+]
