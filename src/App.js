@@ -38,7 +38,7 @@ function App() {
             {" "}
             Scoreboard{" "}
           </Link>
-          <Link to="/Menu" style={{ textDecoration: "none", color: "black" }}>
+          <Link to="/" style={{ textDecoration: "none", color: "black" }}>
             {" "}
             Menu{" "}
           </Link>
@@ -56,7 +56,7 @@ function App() {
           <DataContext.Provider value={{users}}>
             <Route path="/Scoreboard" render={() => <Scoreboard />} />
           </DataContext.Provider>
-          <Route path="/Menu" render={() => <Menu />} />
+          <Route path="/" render={() => <Menu />} />
         </Switch>
       </div>
     </div>
