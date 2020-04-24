@@ -40,7 +40,7 @@ function App() {
           </Link>
           <Link to="/" style={{ textDecoration: "none", color: "black" }}>
             {" "}
-            Menu{" "}
+            Enter{" "}
           </Link>
         </div>
         <h1 className="glitch" data-text="Don't Panic">
